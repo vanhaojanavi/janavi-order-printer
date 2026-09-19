@@ -10,6 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = uri("https://repository.sunmi.com/repository/maven-public/") }
     }
 }
 rootProject.name = "JanaviOrderPrinter"
