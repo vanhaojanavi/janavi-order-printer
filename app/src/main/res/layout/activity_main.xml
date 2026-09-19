@@ -37,6 +37,30 @@
             android:text="Chọn máy in tem" />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1A237E"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/btnStaffScreen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:text="Màn nhân viên" />
+
+        <Button
+            android:id="@+id/btnCustomerScreen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:text="Màn khách tự order" />
+    </LinearLayout>
+
     <WebView
         android:id="@+id/webView"
         android:layout_width="match_parent"
